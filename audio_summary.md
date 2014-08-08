@@ -73,7 +73,7 @@
       安卓 Chrome35 加载后不播放 (需用户触发事件, 才会进行播放)
 
       解决方案: 
-      AJAX加载, 需 Web Audio API 支持, 移动版Chrome支持 Web Audio API
+      AJAX加载, 需 Web Audio API 支持, 移动版Chrome支持 Web Audio API [研究下PhoneGap, 探索下更好的解决方案]
       ```
         var audio = document.querySelector('audio');
         var xhr = new XMLHttpRequest();
