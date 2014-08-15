@@ -52,9 +52,9 @@
 
   目前主有三种主要格式.
 
-    * MP3: MPEG-1 Audio Layer
-    * OGG: 一种开放容器格式 (open container format)
-    * ACC: 高级音频编码 (Advanced Audio Coding)
+      * MP3: MPEG-1 Audio Layer
+      * OGG: 一种开放容器格式 (open container format)
+      * ACC: 高级音频编码 (Advanced Audio Coding)
 
   * 属性相关 [ 注: webview 为来往客户端 ]
 
