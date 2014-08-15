@@ -153,15 +153,24 @@
 
     ![](img/cordova_learning/chrome.JPG)
 
-    ![](img/cordova_learning/webview.JPG)    
+    ![](img/cordova_learning/webview.JPG)
 
-  * 事件支持
+  * 基础事件
+
 
 
 
 ## 音频组件
 
- 是否可以引用线上链接
+  Cordova 大部分硬件事件的支持采用插件的形式提供, 比如 电量信息, 摄像头, 设备移动等
+
+  详细介绍: [ http://cordova.apache.org/docs/en/3.5.0/cordova_plugins_pluginapis.md.html#Plugin%20APIs ]
+
+  如果需要应用支持音频播放, 需要安装 org.apache.cordova.media 插件
+
+  官方提供的安装方式为 `ordova plugin add org.apache.cordova.media`
+
+
 
 ### 参考文献
 
