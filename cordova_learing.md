@@ -168,7 +168,7 @@
 
   如果需要应用支持音频播放, 需要安装 org.apache.cordova.media 插件
 
-  官方提供的安装方式为 `ordova plugin add org.apache.cordova.media`
+  官方提供的安装方式为 `ordova plugin add org.apache.cordova.media` 网络环境不好可能会下载不下来, 可以换用 `cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-media.git`
 
 
 
