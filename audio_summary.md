@@ -46,15 +46,15 @@
 
   * 编码格式
 
-  audio 元素可以包含多个音频资源, 这些音频资源可以使用 src 属性或者 source 元素来进行描述, 浏览器会选择最适合的一个来使用.
+    audio 元素可以包含多个音频资源, 这些音频资源可以使用 src 属性或者 source 元素来进行描述, 浏览器会选择最适合的一个来使用.
 
-  浏览器不仅要支持 audio 标签而且要支持相应的格式, 并不是所有浏览器都支持相同的音频文件格式.
+    浏览器不仅要支持 audio 标签而且要支持相应的格式, 并不是所有浏览器都支持相同的音频文件格式.
 
-  目前主有三种主要格式.
+    目前主有三种主要格式.
 
       * MP3: MPEG-1 Audio Layer
       * OGG: 一种开放容器格式 (open container format)
-      * ACC: 高级音频编码 (Advanced Audio Coding)
+      * AAC: 高级音频编码 (Advanced Audio Coding)
 
   * 属性相关 [ 注: webview 为来往客户端 ]
 
