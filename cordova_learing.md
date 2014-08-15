@@ -34,7 +34,7 @@
 
         <可用控制台 javac 命令验证>
 
-      *Android SDK
+      * Android SDK
 
         地址: [ http://developer.android.com/sdk/index.html ]
 
