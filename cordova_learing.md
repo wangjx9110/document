@@ -134,7 +134,7 @@
 
       地址: [ https://downloadcenter.intel.com/Detail_Desc.aspx?ProductID=1881&DwnldID=7838 ]
 
-      ![](img/cordova_learning/vitural.jpg)
+      ![](img/cordova_learning/vitural.JPG)
 
       若支持需要在 BIOS 中进行开启 
 
@@ -143,17 +143,17 @@
       注: 点击 'Install Package' 后 `Intel x86 Emulator Accelerator (HAXM)` 只是下载完成, 并未进行安装. 需找到下载文件并进行安装, 不同机型可能不同, 安装后虚拟机速度会快不少. 
       [ 我这边是 Andriod SDK 安装目录的 'sdk\extras\intel\Hardware_Accelerated_Execution_Manager' 文件夹下的 'intelhaxm.exe' 文件 ]
 
-      ![](img/cordova_learning/intel image.jpg)
+      ![](img/cordova_learning/intel image.JPG)
 
-      ![](img/cordova_learning/accelerator.jpg)
+      ![](img/cordova_learning/accelerator.JPG)
 
   * Chrome WebView 调试
 
     无论是虚拟机或真实设备都可以通过 Chrome 进行 WebView 的调试, 在 Chrome 中打开 '工具 -> 检查设备' 即可对特定设备的 WebView 进行调试.
 
-    ![](img/cordova_learning/chrome.jpg)
+    ![](img/cordova_learning/chrome.JPG)
 
-    ![](img/cordova_learning/webview.jpg)    
+    ![](img/cordova_learning/webview.JPG)    
 
   * 事件支持
 
