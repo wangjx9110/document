@@ -342,6 +342,8 @@
     iOS 7 Safari      可以同时播放   
 
 ## PhoneGap (Cordova) 音频解决方案
+  
+  详见 [ https://github.com/wangjx9110/document/blob/master/cordova_learing.md ]
 
 ## 总结
 
