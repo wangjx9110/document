@@ -23,9 +23,9 @@
 
   * Web Audio API
 
-  Web Auido API 是 JavaScript 中用于在网页应用中处理音频的一个高级应该用接口, 主要用于实现Web端的音频处理, 并可以同已存在的其他API相配合, 包括XMLHttpRequest, Canvas 2D 和 WebGL 3D API.
+    Web Auido API 是 JavaScript 中用于在网页应用中处理音频的一个高级应该用接口, 主要用于实现Web端的音频处理, 并可以同已存在的其他API相配合, 包括XMLHttpRequest, Canvas 2D 和 WebGL 3D API.
 
-  其支持的功能包括
+    其支持的功能包括
 
       * 支持各种类型的音频滤波器以实现各种音频效果, 包括回声, 消除噪音等
       * 支持利用合成声音 (Sound synthesis) 创建电子音乐
@@ -33,9 +33,9 @@
       * 支持外部输入的声音与 WebRTC 进行集成
       * 以及各种高端音频处理方法...
 
-  但是...
+    但是...
 
-  由于移动端对其支持不是很完善 [ iOS已支持, 安卓原生浏览器目前还不支持 ], 目前还是使用支持广泛的 HTML5 Audio 好一些
+    由于移动端对其支持不是很完善 [ iOS已支持, 安卓原生浏览器目前还不支持 ], 目前还是使用支持广泛的 HTML5 Audio 好一些
 
   * HTML5 Audio 标签
 
