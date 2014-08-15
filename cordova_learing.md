@@ -60,15 +60,15 @@
         npm install -g cordova
       ```
         
-        注: cordova 的运行也需要 Apache Ant 的支持 [ 构建部分需要, 否则 cordova platform add 部分会报错 ] [ 此部分官网没有提及, 在此作为补充 ]
+      注: cordova 的运行也需要 Apache Ant 的支持 [ 构建部分需要, 否则 cordova platform add 部分会报错 ] [ 此部分官网没有提及, 在此作为补充 ]
 
-          地址: [ http://ant.apache.org/bindownload.cgi ]
+        地址: [ http://ant.apache.org/bindownload.cgi ]
 
-          环境变量配置: 
+        环境变量配置: 
 
-          [添加] Path: 解压后的 bin 路径 [ 例: D:\apache-ant-1.9.4\bin; ]
+        [添加] Path: 解压后的 bin 路径 [ 例: D:\apache-ant-1.9.4\bin; ]
 
-          <可用控制台 ant 命令验证> [ 一般会出现 `Buildfile: build.xml does not exist!` 提示 ]
+        <可用控制台 ant 命令验证> [ 一般会出现 `Buildfile: build.xml does not exist!` 提示 ]
     
     * 创建项目 [ cordova create ]
 
@@ -110,18 +110,19 @@
         2. 在 Eclipse 里配置虚拟机 [ Window -> Android Virtual Device Manager 进行配置 ], 配置结束后执行 `cordova emulate android` 命令即可启动虚拟机 <未优化虚拟机会比较卡, 后文介绍加速方式>
 
       * 真实设备
+
         ```
           cordova run android
         ```
         1. 在控制台检测连接设备 (测试设备要开启 USB 调试)
-        ```
-          adb devices
-        ```
-        用于检测连接设备, 结果如下所示
-        ```
-          List of devices attached
-          [ 设备编号 ]    device
-        ```
+          ```
+            adb devices
+          ```
+          用于检测连接设备, 结果如下所示
+          ```
+            List of devices attached
+            [ 设备编号 ]    device
+          ```
         2. 如果有连接设备, 执行 `cordova run android` 后, 会在真实设备上运行应用
 
   * Andriod 虚拟机加速 (Intel 虚化技术)
@@ -133,7 +134,7 @@
 
       地址: [ https://downloadcenter.intel.com/Detail_Desc.aspx?ProductID=1881&DwnldID=7838 ]
 
-      ![]()
+      ![](img/cordova_learning/vitural.jpg)
 
       若支持需要在 BIOS 中进行开启 
 
@@ -142,19 +143,21 @@
       注: 点击 'Install Package' 后 `Intel x86 Emulator Accelerator (HAXM)` 只是下载完成, 并未进行安装. 需找到下载文件并进行安装, 不同机型可能不同, 安装后虚拟机速度会快不少. 
       [ 我这边是 Andriod SDK 安装目录的 'sdk\extras\intel\Hardware_Accelerated_Execution_Manager' 文件夹下的 'intelhaxm.exe' 文件 ]
 
-      ![]()
+      ![](img/cordova_learning/intel image.jpg)
+
+      ![](img/cordova_learning/accelerator.jpg)
 
   * Chrome WebView 调试
 
     无论是虚拟机或真实设备都可以通过 Chrome 进行 WebView 的调试, 在 Chrome 中打开 '工具 -> 检查设备' 即可对特定设备的 WebView 进行调试.
 
-    ![]()
+    ![](img/cordova_learning/chrome.jpg)
 
-    ![]()    
+    ![](img/cordova_learning/webview.jpg)    
 
   * 事件支持
 
-    
+
 
 ## 音频组件
 
