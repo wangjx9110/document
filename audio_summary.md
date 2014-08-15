@@ -41,7 +41,7 @@
 
   * HTML5 Audio 标签
 
-    ![](img/audio_summary/audio_tag.jpg.jpg)
+    ![](img/audio_summary/audio_tag.jpg)
 
     Audio 标签是 HTML5 新定义的一个元素, 提供了在 Web 端播放音频的很多功能. 虽然没有 Web Audio API 那么强大, 但足以满足日常音频播放需求, 更重要的是使浏览器原生支持音频播放, 而不依赖 Flash 或 Sliverlight 之类的外部插件
 
