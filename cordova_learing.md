@@ -166,18 +166,18 @@
 
   官方提供的安装方式为 `cordova plugin add org.apache.cordova.media` 网络环境不好可能会下载不下来, 可以换用 `cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-media.git`
 
-  创建音频对象
-  ```
-    var media = new Media(src, mediaSuccess, [mediaError], [mediaStatus]);
-  ```
-  参数
+  * 创建音频对象
+    ```
+      var media = new Media(src, mediaSuccess, [mediaError], [mediaStatus]);
+    ```
+  * 参数
 
     * src 音频 URI
     * mediaSuccess 成功的回调函数
     * mediaError 错误的回调函数
     * mediaStatus 音频对象状态改变时触发的回调函数, 状态值会作为参数传递给回调函数
 
-  常量
+  * 常量
 
     作为传递给 mediaStatus 回调函数的参数
 
@@ -187,7 +187,7 @@
       * Media.MEDIA_PAUSED = 3;
       * Media.MEDIA_STOPPED = 4;
 
-  方法
+  * 方法
 
     * media.getCurrentPosition: 返回音频文件的当前播放位置
     * media.getDuration: 返回音频文件的持续时间
