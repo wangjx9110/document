@@ -155,10 +155,6 @@
 
     ![](img/cordova_learning/webview.JPG)
 
-  * 基础事件
-
-
-
 
 ## 音频组件
 
@@ -168,9 +164,41 @@
 
   如果需要应用支持音频播放, 需要安装 org.apache.cordova.media 插件
 
-  官方提供的安装方式为 `ordova plugin add org.apache.cordova.media` 网络环境不好可能会下载不下来, 可以换用 `cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-media.git`
+  官方提供的安装方式为 `cordova plugin add org.apache.cordova.media` 网络环境不好可能会下载不下来, 可以换用 `cordova plugin add https://git-wip-us.apache.org/repos/asf/cordova-plugin-media.git`
 
+  创建音频对象
+  ```
+    var media = new Media(src, mediaSuccess, [mediaError], [mediaStatus]);
+  ```
+  参数
 
+    * src 音频 URI
+    * mediaSuccess 成功的回调函数
+    * mediaError 错误的回调函数
+    * mediaStatus 音频对象状态改变时触发的回调函数, 状态值会作为参数传递给回调函数
+
+  常量
+
+    作为传递给 mediaStatus 回调函数的参数
+
+      * Media.MEDIA_NONE = 0;
+      * Media.MEDIA_STARTING = 1;
+      * Media.MEDIA_RUNNING = 2;
+      * Media.MEDIA_PAUSED = 3;
+      * Media.MEDIA_STOPPED = 4;
+
+  方法
+
+    * media.getCurrentPosition: 返回音频文件的当前播放位置
+    * media.getDuration: 返回音频文件的持续时间
+    * media.play: 播放或恢复一个音频文件
+    * media.pause: 暂停音频文件的播放
+    * media.release: 释放操作系统底层的音频资源
+    * media.seekTo: 移动一个音频文件的当前位置
+    * media.setVolume: 设置音量大小
+    * media.stop: 停止音频播放
+
+  官方文档: [ https://github.com/apache/cordova-plugin-media/blob/master/doc/index.md ]
 
 ### 参考文献
 
